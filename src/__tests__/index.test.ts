@@ -2,7 +2,6 @@ import { getPrimaryDesktopConnection } from '../index';
 import { ConnectionResponse } from '../connection-response';
 
 test('Get default desktop', async () => {
-
   const username = process.env.TESTUSERNAME || '';
   const password = process.env.TESTPASSWORD || '';
   const hostname = process.env.TESTHOSTNAME || '';
