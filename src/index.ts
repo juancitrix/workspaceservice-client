@@ -1,8 +1,6 @@
 import { get, post } from "needle";
 import { ConnectionResponse } from './connection-response';
 
-export const Greeter = (name: string) => `Hello ${name}`;
-
 async function getResourceList(host: string): Promise<object> {
 
     return new Promise<object>( (resolve, reject) => {
