@@ -78,7 +78,7 @@ async function getExplicitLogin(host: string, options: any): Promise<void> {
 
     return new Promise<void>( (resolve, reject) => {
 
-        const url = `http://${host}/Citrix/StoreWeb/ExplicitAuth/Login`;
+        const url = `https://${host}/Citrix/StoreWeb/ExplicitAuth/Login`;
 
         post(url, '', options, (error: any, response: any) => {
 
@@ -103,7 +103,7 @@ async function loginAttempt(username: string, password: string, host: string, op
 
     return new Promise<void>( (resolve, reject) => {
 
-        const url = `http://${host}/Citrix/StoreWeb/ExplicitAuth/LoginAttempt`;
+        const url = `https://${host}/Citrix/StoreWeb/ExplicitAuth/LoginAttempt`;
 
         const body = `username=${username}&password=${password}&saveCredentials=false&loginBtn=Log%2BOn&StateContext=undefined`;
 
