@@ -1,6 +1,6 @@
 {
   "name": "workspaceservice-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Citrix Workspace Service Client",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,17 +12,21 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juancitrix/workspaceservice-client.git"
   },
-  "keywords": ["Citrix", "Workspace Service", "Citrix Cloud"],
+  "keywords": [
+    "Citrix",
+    "Workspace Service",
+    "Citrix Cloud"
+  ],
   "author": "Juan Rivera <juan.rivera@citrix.com> (https://twitter.com/juancitrix)",
   "license": "ISC",
   "bugs": {
