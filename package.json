@@ -41,5 +41,9 @@
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
     "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@types/needle": "^2.0.3",
+    "needle": "^2.2.4"
   }
 }
