@@ -1,5 +1,5 @@
-import { getPrimaryDesktopConnection } from '../workspaceservice-client';
-import { ConnectionResponse } from '../connection-response';
+import { getPrimaryDesktopConnection } from './workspaceservice-client';
+import { ConnectionResponse } from './connection-response';
 
 test('Get default desktop', async () => {
   const username = process.env.TESTUSERNAME || '';
