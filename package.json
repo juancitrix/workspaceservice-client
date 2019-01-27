@@ -22,8 +22,8 @@
     "type": "git",
     "url": "git+https://github.com/juancitrix/workspaceservice-client.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Citrix", "Workspace Service", "Citrix Cloud"],
+  "author": "Juan Rivera <juan.rivera@citrix.com> (https://twitter.com/juancitrix)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/juancitrix/workspaceservice-client/issues"
