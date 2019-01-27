@@ -2,8 +2,8 @@
   "name": "workspaceservice-client",
   "version": "1.0.2",
   "description": "Citrix Workspace Service Client",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/workspaceservice-client.js",
+  "types": "lib/workspaceservice-client.d.ts",
   "files": [
     "lib/**/*"
   ],

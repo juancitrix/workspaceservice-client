@@ -1,4 +1,4 @@
-import { getPrimaryDesktopConnection } from '../index';
+import { getPrimaryDesktopConnection } from '../workspaceservice-client';
 import { ConnectionResponse } from '../connection-response';
 
 test('Get default desktop', async () => {
